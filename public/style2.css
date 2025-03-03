@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://th.bing.com/th/id/OIP.B-WxvEagJd9jE257riHxVQHaEo?w=1920&h=1200&rs=1&pid=ImgDetMain") no-repeat center center/cover;
+    backdrop-filter: blur(5px);
+}
+
+
+.form-container {
+    width: 350px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+/* Updated Input Field Styling */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.85); /* Light solid background for better readability */
+    color: #333; /* Dark text for clear visibility */
+    transition: 0.3s ease-in-out;
+}
+
+.form-group input::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-group input:focus {
+    background: rgba(255, 255, 255, 1); /* Fully solid on focus */
+    border: 1px solid #472dbb;
+    box-shadow: 0 0 5px rgba(71, 45, 187, 0.5);
+}
+
+/* Button Styling */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #472dbb, #7863f0);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #7863f0, #472dbb);
+    transform: scale(1.05);
+}
+
+p {
+    margin-top: 15px;
+    color: #fff;
+}
+
+p a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
