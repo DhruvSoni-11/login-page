@@ -4,7 +4,6 @@ const bcrypt = require("bcrypt");
 const collection = require("./config");
 
 const app = express();
-// consvert data into json format
 app.use(express.json());
 
 app.use(express.urlencoded({extended: false}));
